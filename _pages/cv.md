@@ -19,10 +19,10 @@ Education
 * **Nov 2012 - Sept 2014** - MSc in Signal Theory and Communications *(University of Vigo, Spain)*
 * **Sept 2016 - Nov 2012** - BSc in Telecommunication Engineering *(University of Vigo, Spain)*
 
-<!--
-Work experience
+
+<!-- Work experience
 ======
-* Summer 2015: Research Assistant
+* Summer 2015: Research Assistant 
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
@@ -30,8 +30,8 @@ Work experience
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub -->
-  <!--
+  * Supervisor: Professor Hub
+
 Skills
 ======
 * Skill 1
