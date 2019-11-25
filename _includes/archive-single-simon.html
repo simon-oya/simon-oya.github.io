@@ -26,11 +26,15 @@
         {{ post.authors }}.
       {% endif %}
       {% if post.venue %}
-        In <i>{{ post.venue }}</i>.
+        In <i>{{ post.venue }}</i>,
       {% endif %}
-      {% if post.year %}
-        (){{ post.year }})
+
+      {% if post.type == "conference" %}
+        pp. {{ post.pages }}, {{ post.year }}.  
+      {% elif post.type == "journal" %}
+        vol. {{ post.volume }}, no. {{ post.number }}, pp. {{ post.pages }}, {{ post.year }}.
       {% endif %}
+
 
     </p>
 

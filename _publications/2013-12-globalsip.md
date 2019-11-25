@@ -1,6 +1,7 @@
 ---
 title: 'Meet the Family of Statistical Disclosure Attacks'
 authors: '<strong>Simon Oya</strong>, Carmela Troncoso, and Fernando Pérez-González'
+type: 'conference'
 venue: 'IEEE Global Conference on Signal and Information Processing (GlobalSIP)'
 collection: publications
 permalink: /publication/oya-2013-12-globalsip
