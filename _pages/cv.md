@@ -22,7 +22,7 @@ Education
 
 <!-- Work experience
 ======
-* Summer 2015: Research Assistant 
+* Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
@@ -43,7 +43,7 @@ Skills
 
 Journal Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% if post.type == 'journal' %}
       {% include archive-single-simon.html %}
     {% endif %}
@@ -51,7 +51,7 @@ Journal Publications
 
 Conference Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% if post.type == 'conference' %}
       {% include archive-single-simon.html %}
     {% endif %}
@@ -69,6 +69,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
