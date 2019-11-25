@@ -41,11 +41,20 @@ Skills
   * Sub-skill 2.3
 * Skill 3 -->
 
-Publications
+Journal Publications
 ======
   <ul>{% for post in site.publications %}
-    {% if post%}
-    {% include archive-single-cv.html %}
+    {% if post.type == 'journal' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ul>
+
+Conference Publications
+======
+  <ul>{% for post in site.publications %}
+    {% if post.type == 'conference' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
 
 Talks
