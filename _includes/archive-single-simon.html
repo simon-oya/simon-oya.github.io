@@ -14,19 +14,25 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <p>
 
-    {% if post.title and post.paperurl %}
-      <a href="{{ post.paperurl }}">{{ post.title }}</a>
-    {% elsif post.title %}
-      {{ post.title }}
-    {% endif %}
+      {% if post.title and post.paperurl %}
+        <a href="{{ post.paperurl }}">{{ post.title }}</a>.
+      {% elsif post.title %}
+        {{ post.title }}.
+      {% endif %}
 
-    {% if post.authors %}
-      {{ post.authors }}
-    {% endif %}
-    {% if post.venue %}
-      <i>{{ post.venue }}</i>
-    {% endif %}
+      {% if post.authors %}
+        {{ post.authors }}.
+      {% endif %}
+      {% if post.venue %}
+        In <i>{{ post.venue }}</i>.
+      {% endif %}
+      {% if post.year %}
+        (){{ post.year }})
+      {% endif %}
+
+    </p>
 
     <!-- {% if post.citation and post.paperurl %}
       <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
