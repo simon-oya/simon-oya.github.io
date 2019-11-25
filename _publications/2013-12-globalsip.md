@@ -1,5 +1,5 @@
 ---
-title: "Meet the Family of Statistical Disclosure Attacks"
+title: 'Meet the Family of Statistical Disclosure Attacks'
 collection: publications
 permalink: /publication/oya-2013-12-globalsip
 excerpt: ''
