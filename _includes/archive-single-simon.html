@@ -31,7 +31,7 @@
 
       {% if post.type == "conference" %}
         pp. {{ post.pages }}, {{ post.year }}.
-      {% elif post.type == "journal" %}
+      {% elsif post.type == "journal" %}
         vol. {{ post.volume }}, no. {{ post.number }}, pp. {{ post.pages }}, {{ post.year }}.
       {% endif %}
 
