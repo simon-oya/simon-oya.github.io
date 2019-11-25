@@ -45,7 +45,7 @@ Journal Publications
 ======
   <ul>{% for post in site.publications %}
     {% if post.type == 'journal' %}
-      {% include archive-single-cv.html %}
+      {% include archive-single-simon.html %}
     {% endif %}
   {% endfor %}</ul>
 
@@ -53,7 +53,7 @@ Conference Publications
 ======
   <ul>{% for post in site.publications %}
     {% if post.type == 'conference' %}
-      {% include archive-single-cv.html %}
+      {% include archive-single-simon.html %}
     {% endif %}
   {% endfor %}</ul>
 
