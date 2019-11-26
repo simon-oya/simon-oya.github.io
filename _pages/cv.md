@@ -40,7 +40,7 @@ Tutorials
 ======
   <ul>{% for post in site.talks %}
     {% if post.type == 'tutorial' %}
-      {% include archive-single-talk-simon-cv.html %}
+      {% include archive-single-talk-simon.html %}
     {% endif %}
   {% endfor %}</ul>
 
@@ -48,7 +48,7 @@ Conference Talks
 ======
 <ul>{% for post in site.publications %}
   {% if post.type == 'conference' and post.slidesurl %}
-    {% include archive-single-talk-simon-cv.html %}
+    {% include archive-single-talk-simon.html %}
   {% endif %}
 {% endfor %}</ul>
 
