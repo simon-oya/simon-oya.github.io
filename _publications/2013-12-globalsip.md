@@ -9,6 +9,7 @@ date: 2013-12-03
 year: 2013
 pages: '223-236'
 paperurl: 'http://simon-oya.github.io/files/oya-2013-12-globalsip.pdf'
+posterurl: 'http://simon-oya.github.io/files/oya-2013-12-globalsip-poster.pdf'
 ---
 
 [Download paper here](http://simon-oya.github.io/files/oya-2013-12-globalsip.pdf)
