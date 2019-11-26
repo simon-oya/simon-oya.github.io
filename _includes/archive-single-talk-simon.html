@@ -16,17 +16,10 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <p>
-    {% if post.type == 'conference' and post.slidesurl %}
-      {% if post.title %}{{ post.title }}.{% endif %}
-      {% if post.venue %}{{ post.venue }}.{% endif %}
-      {% if post.date %}{{ post.date }}.{% endif %}
-      [<a href="{{ post.slidesurl }}">Slides</a>]
-    {% elsif post.type == 'talk' %}
-      {% if post.title %}{{ post.title }}.{% endif %}
-      {% if post.venue %}{{ post.venue }}.{% endif %}
-      {% if post.date %}{{ post.date }}.{% endif %}
-      [<a href="{{ post.slidesurl }}">Slides</a>]
-    {% endif %}
+    {% if post.title %}{{ post.title }}.{% endif %}
+    {% if post.venue %}{{ post.venue }}.{% endif %}
+    {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
+    {% if post.slidesurl %}[<a href="{{ post.slidesurl }}">Slides</a>]{% endif %}
     </p>
 
   </article>
