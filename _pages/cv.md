@@ -38,7 +38,7 @@ Conference Publications
 
 Tutorials
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% if post.type == 'tutorial' %}
       {% include archive-single-talk-simon.html %}
     {% endif %}
@@ -46,14 +46,15 @@ Tutorials
 
 Conference Talks
 ======
-<ul>{% for post in site.publications %}
+<ul>{% for post in site.publications reversed %}
   {% if post.type == 'conference' and post.slidesurl %}
     {% include archive-single-talk-simon.html %}
   {% endif %}
 {% endfor %}</ul>
 
-<!-- Teaching
+Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
+    TODO: Modify this include!!
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
