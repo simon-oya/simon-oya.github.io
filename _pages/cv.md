@@ -38,7 +38,7 @@ Conference Publications
 
 PhD Thesis
 ======
-<ul>{% for post in site.talks reversed %}
+<ul>{% for post in site.publications reversed %}
   {% if post.type == 'thesis' %}
     {% include archive-single-simon.html %}
   {% endif %}
