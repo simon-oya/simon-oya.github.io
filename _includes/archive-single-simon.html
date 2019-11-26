@@ -22,17 +22,12 @@
         {{ post.title }}.
       {% endif %}
 
-      {% if post.authors %}
-        {{ post.authors }}.
-      {% endif %}
-      {% if post.venue %}
-        In <i>{{ post.venue }}</i>,
-      {% endif %}
+      {% if post.authors %}{{ post.authors }}.{% endif %}
 
-      {% if post.type == "conference" %}
-        pp. {{ post.pages }}, {{ post.year }}.
-      {% elsif post.type == "journal" %}
-        vol. {{ post.volume }}, no. {{ post.number }}, pp. {{ post.pages }}, {{ post.year }}.
+      {% if post.type == 'conference' and post.booktitle %}
+        In <i>{{ post.booktitle }}</i>, pp. {{ post.pages }}, {{ post.year }}.
+      {% elsif post.type == 'conference' and post.journal %}
+        In <i>{{ post.journal }}</i>, vol. {{ post.volume }}, no. {{ post.number }}, pp. {{ post.pages }}, {{ post.year }}.
       {% endif %}
 
       {% if post.techrepurl %}
