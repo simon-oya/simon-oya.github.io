@@ -36,6 +36,15 @@ Conference Publications
     {% endif %}
   {% endfor %}</ul>
 
+PhD Thesis
+======
+<ul>{% for post in site.talks reversed %}
+  {% if post.type == 'thesis' %}
+    {% include archive-single-simon.html %}
+  {% endif %}
+{% endfor %}</ul>
+
+
 Tutorials
 ======
   <ul>{% for post in site.talks reversed %}
