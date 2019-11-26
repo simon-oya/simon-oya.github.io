@@ -8,4 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-This is my webpage, I'm still learning about it and I need to fill this out
+I am a postdoctoral fellow at the University of Waterloo, in Canada.
+I am a member of [CrySP](https://crysp.uwaterloo.ca/) and my supervisor is professor [Florian Kerschbaum](https://cs.uwaterloo.ca/~fkerschb/).
+
+My research interests are blah blah blah TODO: complete this!! 
