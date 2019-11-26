@@ -1,0 +1,33 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <p>
+    {% if post.type == 'conference' and post.slidesurl %}
+      {% if post.title %}{{ post.title }}.{% endif %}
+      {% if post.venue %}{{ post.venue }}.{% endif %}
+      {% if post.date %}{{ post.date }}.{% endif %}
+      [{{ <a href="{{ post.slidesurl }}">{{Slides}}</a> }}]
+    {% elsif post.type == 'talk' %}
+      {% if post.title %}{{ post.title }}.{% endif %}
+      {% if post.venue %}{{ post.venue }}.{% endif %}
+      {% if post.date %}{{ post.date }}.{% endif %}
+      [{{ <a href="{{ post.slidesurl }}">{{Slides}}</a> }}]
+    {% endif %}
+    </p>
+
+  </article>
+</div>

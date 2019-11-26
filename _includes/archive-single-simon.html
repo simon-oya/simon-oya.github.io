@@ -35,6 +35,14 @@
         vol. {{ post.volume }}, no. {{ post.number }}, pp. {{ post.pages }}, {{ post.year }}.
       {% endif %}
 
+      {% if post.techrepurl %}
+        []{{ <a href="{{ post.techrepurl }}">{{Technical Report}}</a> }}]
+      {% endif %}
+
+      {% if post.slidesurl %}
+        [{{ <a href="{{ post.slidesurl }}">{{Slides}}</a> }}]
+      {% endif %}
+
     </p>
   </article>
 </div>
