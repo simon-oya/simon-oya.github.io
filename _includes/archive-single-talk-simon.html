@@ -16,7 +16,6 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <p>
       {% if post.type == 'tutorial' %}
-        Tutorial:
         {% if post.title %}{{ post.title }}.{% endif %}
         {% if post.authors %}{{ post.authors }}.{% endif %}
         {% if post.booktitle %}In <i>{{ post.booktitle }}</i>.{% endif %}
