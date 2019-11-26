@@ -20,12 +20,12 @@
       {% if post.title %}{{ post.title }}.{% endif %}
       {% if post.venue %}{{ post.venue }}.{% endif %}
       {% if post.date %}{{ post.date }}.{% endif %}
-      [{{ <a href="{{ post.slidesurl }}">Slides</a> }}]
+      [<a href="{{ post.slidesurl }}">Slides</a>]
     {% elsif post.type == 'talk' %}
       {% if post.title %}{{ post.title }}.{% endif %}
       {% if post.venue %}{{ post.venue }}.{% endif %}
       {% if post.date %}{{ post.date }}.{% endif %}
-      [{{ <a href="{{ post.slidesurl }}">Slides</a> }}]
+      [<a href="{{ post.slidesurl }}">Slides</a>]
     {% endif %}
     </p>
 
