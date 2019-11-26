@@ -63,6 +63,5 @@ Conference Talks
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
-    TODO: Modify this include!!
     {% include archive-single-teaching-simon.html %}
   {% endfor %}</ul>
