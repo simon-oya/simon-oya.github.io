@@ -17,8 +17,9 @@
     <p>
       {% if post.slidesurl %}
         {% if post.title %}{{ post.title }}.{% endif %}
-        {% if post.venue %}{{ post.venue }}.{% endif %}
+        {% if post.booktitle %}In <i>{{ post.booktitle }}</i>.{% endif %}
         {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
+        {% if post.location %}{{ post.location }}.{% endif %}
         [<a href="{{ post.slidesurl }}">Slides</a>]
       {% endif %}
     </p>
