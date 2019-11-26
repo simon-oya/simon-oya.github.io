@@ -1,7 +1,7 @@
 ---
 title: "Probability and Statistics"
 collection: teaching
-type: "Undergraduate course"
+type: "undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University of Vigo, Signal Theory and Communications Department"
 year: 2017/2018

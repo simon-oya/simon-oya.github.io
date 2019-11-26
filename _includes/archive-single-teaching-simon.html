@@ -1,0 +1,25 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <p>
+      {% if post.type == 'undergraduate course' %}
+        {% if post.title %}{{ post.title }},{% endif %}
+        {% if post.venue %}{{ post.venue }},{% endif %}
+        {% if post.year %}{{ post.year }}.{% endif %}
+      {% endif %}
+    </p>
+  </article>
+</div>

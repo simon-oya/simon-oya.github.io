@@ -44,7 +44,6 @@ PhD Thesis
   {% endif %}
 {% endfor %}</ul>
 
-
 Tutorials
 ======
   <ul>{% for post in site.talks reversed %}
@@ -65,5 +64,5 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     TODO: Modify this include!!
-    {% include archive-single-cv.html %}
+    {% include archive-single-teaching-simon.html %}
   {% endfor %}</ul>
