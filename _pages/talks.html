@@ -20,7 +20,14 @@ author_profile: true
 
 <h2>Conference Presentations</h2>
 {% for post in site.publications reversed %}
-  {% if post.type == 'conference' %}
+  {% if post.type == 'conference' and post.slidesurl %}
+    {% include archive-single-talk-simon.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Conference Posters</h2>
+{% for post in site.publications reversed %}
+  {% if post.type == 'conference' and post.posterurl %}
     {% include archive-single-talk-simon.html %}
   {% endif %}
 {% endfor %}

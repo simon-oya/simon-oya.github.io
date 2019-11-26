@@ -29,6 +29,13 @@
         {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
         {% if post.location %}{{ post.location }}.{% endif %}
         [<a href="{{ post.slidesurl }}">Slides</a>]
+      {% elsif post.type == 'conference' and post.posterurl %}
+        {% if post.title %}{{ post.title }}.{% endif %}
+        {% if post.authors %}{{ post.authors }}.{% endif %}
+        {% if post.booktitle %}In <i>{{ post.booktitle }}</i>.{% endif %}
+        {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
+        {% if post.location %}{{ post.location }}.{% endif %}
+        [<a href="{{ post.posterurl }}">Poster</a>]
       {% endif %}
     </p>
   </article>
