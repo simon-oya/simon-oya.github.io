@@ -24,7 +24,7 @@ Journal Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% if post.type == 'journal' %}
-      {% include archive-single-simon.html %}
+      * {% include archive-single-simon.html %}
     {% endif %}
   {% endfor %}</ul>
 
@@ -32,7 +32,7 @@ Conference Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% if post.type == 'conference' %}
-      {% include archive-single-simon.html %}
+      * {% include archive-single-simon.html %}
     {% endif %}
   {% endfor %}</ul>
 
@@ -40,7 +40,7 @@ PhD Thesis
 ======
 <ul>{% for post in site.publications reversed %}
   {% if post.type == 'thesis' %}
-    {% include archive-single-simon.html %}
+    * {% include archive-single-simon.html %}
   {% endif %}
 {% endfor %}</ul>
 
@@ -48,7 +48,7 @@ Tutorials
 ======
   <ul>{% for post in site.talks reversed %}
     {% if post.type == 'tutorial' %}
-      {% include archive-single-talk-simon.html %}
+      * {% include archive-single-talk-simon.html %}
     {% endif %}
   {% endfor %}</ul>
 
@@ -56,7 +56,7 @@ Conference Talks
 ======
 <ul>{% for post in site.publications reversed %}
   {% if post.type == 'conference' and post.slidesurl %}
-    {% include archive-single-talk-simon.html %}
+    * {% include archive-single-talk-simon.html %}
   {% endif %}
 {% endfor %}</ul>
 
@@ -106,5 +106,5 @@ Awards and Grants
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-teaching-simon.html %}
+    * {% include archive-single-teaching-simon.html %}
   {% endfor %}</ul>
