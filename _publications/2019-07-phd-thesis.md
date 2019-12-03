@@ -1,5 +1,5 @@
 ---
-title: "A Statistical Approach to the Design of Privacy-Preserving Services"
+title: "PhD Thesis: A Statistical Approach to the Design of Privacy-Preserving Services"
 authors: '<strong>Simon Oya</strong>'
 supervisors: 'Carmela Troncoso and Fernando Pérez-González'
 type: 'thesis'
