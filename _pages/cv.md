@@ -56,7 +56,7 @@ Conference Talks
 ======
 <ul>{% for post in site.publications reversed %}
   {% if post.type == 'conference' and post.slidesurl %}
-    * {% include archive-single-talk-simon.html %}
+    <li>{% include archive-single-talk-simon.html %}</li>
   {% endif %}
 {% endfor %}</ul>
 
