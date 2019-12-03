@@ -12,22 +12,22 @@ author_profile: true
 {% endif %}
 
 <h2>Tutorials</h2>
-{% for post in site.talks reversed %}
+<ul>{% for post in site.talks reversed %}
   {% if post.type == 'tutorial' %}
     <li>{% include archive-single-talk-simon.html %}</li>
   {% endif %}
-{% endfor %}
+{% endfor %}</ul>
 
 <h2>Conference Presentations</h2>
-{% for post in site.publications reversed %}
+<ul>{% for post in site.publications reversed %}
   {% if post.type == 'conference' and post.slidesurl %}
     <li>{% include archive-single-talk-simon.html %}</li>
   {% endif %}
-{% endfor %}
+{% endfor %}</ul>
 
 <h2>Conference Posters</h2>
-{% for post in site.publications reversed %}
+<ul>{% for post in site.publications reversed %}
   {% if post.type == 'conference' and post.posterurl %}
     <li>{% include archive-single-talk-simon.html %}</li>
   {% endif %}
-{% endfor %}
+{% endfor %}</ul>
