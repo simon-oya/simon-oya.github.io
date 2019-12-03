@@ -60,10 +60,10 @@ Conference Talks
   {% endif %}
 {% endfor %}</ul>
 
+
 Academic Service
 ======
-
-Journal reviews
+**Journal reviews**
 * IEEE/ACM Transactions on Networking (TNET) (2018).
 * Proceedings on Privacy Enhancing Technologies (PoPETs) (2017, 2018, 2019).
 * ACM Transactions on Privacy and Security (TOPS) (2017, 2018, 2019).
@@ -76,21 +76,32 @@ Journal reviews
 * International Journal of Information Security (IJIS) (2013).
 * Computer Communications (2013, 2014).
 
-Conference reviews as PC member
-* Financial Cryptography (FC) (2018)
+**Conference reviews as PC member**
+* Financial Cryptography (FC) (2019, 2020)
 
-Conference reviews as external reviewer
+**Conference reviews as external reviewer**
 * IEEE Symposium on Security and Privacy (S\&P) (2016, 2017).
 * ACM Conference on Computer and Communications Security (CCS) (2013, 2014, 2017, 2018).
 * European Symposium on Research in Computer Security (ESORICS) (2013).
 * Privacy Enhancing Technologies (PETS) (2013, 2015, 2018, 2019).
 * ACM Workshop on Privacy in the Electronic Society (WPES) (2015).
 * International Information Security and Privacy Conference (IFIP) (2016).
+* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (2020).
 * IEEE International Conference on Multimedia and Expo (ICME) (2015).
 * Financial Cryptography and Data Security (FC) (2015, 2016).
 * IEEE Workshop on Information Forensics and Security (WIFS) (2014, 2015).
 * International Conference on Information Security (ISC) (2014, 2015).
 
+Awards and Grants
+======
+* PhD Grant *Formación de Profesorado Universitario (FPU)* from the Spanish Ministry of Education (Sept 2015).
+* Grant to undertake a predoctoral fellowship of 6 months at Rutgers, The State University of New Jersey, given by the *Fundación Barrié* (July 2015).
+* PhD Grant from the Regional Government of Galicia (Apr 2015).
+* Best Student Award from the Galician Government (Sept 2014).
+* Best Student Award (Premio Extraordinario Fin de Carrera) from the University of Vigo (Jan 2014).
+* *Erasmus* grant to study abroad, given by the Spanish Ministry of Education (Sept 2011).
+* *Séneca* grant to study in another province of Spain, given by the Spanish Ministry of Education (Sept 2009).
+* Best Student Award (secondary education) from the Galician Government (Oct 2006).
 
 Teaching
 ======
