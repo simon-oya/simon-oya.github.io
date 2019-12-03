@@ -63,8 +63,33 @@ Conference Talks
 Academic Service
 ======
 
-# test #
-## test ##
+Journal reviews
+* IEEE/ACM Transactions on Networking (TNET) (2018).
+* Proceedings on Privacy Enhancing Technologies (PoPETs) (2017, 2018, 2019).
+* ACM Transactions on Privacy and Security (TOPS) (2017, 2018, 2019).
+* ACM Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) (2017).
+* ACM Transactions on Internet Technology (TOIT) (2017).
+* IEEE Transactions on Information Forensics and Security (TIFS) (2016, 2017, 2018, 2019).
+* Computers \& Security (COSE) (2016).
+* Sensors (2016).
+* IEEE Transactions on Dependable and Secure Computing (TDSC) (2014, 2018, 2019).
+* International Journal of Information Security (IJIS) (2013).
+* Computer Communications (2013, 2014).
+
+Conference reviews as PC member
+* Financial Cryptography (FC) (2018)
+
+Conference reviews as external reviewer
+* IEEE Symposium on Security and Privacy (S\&P) (2016, 2017).
+* ACM Conference on Computer and Communications Security (CCS) (2013, 2014, 2017, 2018).
+* European Symposium on Research in Computer Security (ESORICS) (2013).
+* Privacy Enhancing Technologies (PETS) (2013, 2015, 2018, 2019).
+* ACM Workshop on Privacy in the Electronic Society (WPES) (2015).
+* International Information Security and Privacy Conference (IFIP) (2016).
+* IEEE International Conference on Multimedia and Expo (ICME) (2015).
+* Financial Cryptography and Data Security (FC) (2015, 2016).
+* IEEE Workshop on Information Forensics and Security (WIFS) (2014, 2015).
+* International Conference on Information Security (ISC) (2014, 2015).
 
 
 Teaching
