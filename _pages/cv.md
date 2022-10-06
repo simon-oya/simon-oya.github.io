@@ -17,7 +17,7 @@ Education
 * **April 2018 - June 2018** - Predoctoral Research Fellowship *(École polytechnique fédérale de Lausanne, Switzerland)*
 * **Nov 2015 - May 2016** - Predoctoral Research Fellowship *(Rutgers, the State University of New Jersey)*
 * **Nov 2012 - Sept 2014** - MSc in Signal Theory and Communications *(University of Vigo, Spain)*
-* **Sept 2016 - Nov 2012** - BSc in Telecommunication Engineering *(University of Vigo, Spain)*
+* **Sept 2006 - Nov 2012** - BSc in Telecommunication Engineering *(University of Vigo, Spain)*
 
 
 Journal Publications
