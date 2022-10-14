@@ -15,5 +15,5 @@ My research revolves around privacy enhancing technologies, with special interes
 I received my PhD from the University of Vigo (Spain) under the supervision of [Prof. Carmela Troncoso](http://carmelatroncoso.com/) and [Prof. Fernando Pérez-González ](http://gpsc.uvigo.es/fernando-perez-gonzalez). My thesis focused on the design and study of anonymous communication systems and location privacy-preserving mechanisms.
 
 
-![Alice](/assets/images/alice.jpg)
-<img src="/assets/images/alice.jpg" alt="drawing" width="200"/>
+![Alice](/assets/images/alice.png)
+<img src="/assets/images/alice.png" alt="drawing" width="200"/>
