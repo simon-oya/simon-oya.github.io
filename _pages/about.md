@@ -13,3 +13,6 @@ I am a member of [CrySP](https://crysp.uwaterloo.ca/) and my supervisor is [Prof
 My research revolves around privacy enhancing technologies, with special interest in differential privacy and database privacy.
 
 I received my PhD from the University of Vigo (Spain) under the supervision of [Prof. Carmela Troncoso](http://carmelatroncoso.com/) and [Prof. Fernando Pérez-González ](http://gpsc.uvigo.es/fernando-perez-gonzalez). My thesis focused on the design and study of anonymous communication systems and location privacy-preserving mechanisms.
+
+
+![Test image Alice](assets/images/alice.jpg)
