@@ -10,10 +10,12 @@ redirect_from:
 I am a postdoctoral fellow at the University of Waterloo, in Canada.
 I am a member of [CrySP](https://crysp.uwaterloo.ca/) and my supervisor is [Prof. Florian Kerschbaum](https://cs.uwaterloo.ca/~fkerschb/).
 
-My research revolves around privacy enhancing technologies, with special interest in differential privacy and database privacy.
+In my research, I use the principles of *statistical inference* to study and design privacy enhancing technologies.
+Currently, I apply those techniques to assess the privacy of searchable encryption schemes and machine learning models.
 
-I received my PhD from the University of Vigo (Spain) under the supervision of [Prof. Carmela Troncoso](http://carmelatroncoso.com/) and [Prof. Fernando Pérez-González ](http://gpsc.uvigo.es/fernando-perez-gonzalez). My thesis focused on the design and study of anonymous communication systems and location privacy-preserving mechanisms.
+
+I received my PhD from the University of Vigo (Spain) under the supervision of [Prof. Carmela Troncoso](http://carmelatroncoso.com/) and [Prof. Fernando Pérez-González ](http://gpsc.uvigo.es/fernando-perez-gonzalez). 
+In my thesis, I used statistical analysis techniques to study and design anonymous communication systems and location privacy-preserving mechanisms.
 
 
 ![Alice](/assets/images/alice.png)
-<img src="/assets/images/alice.png" alt="drawing" width="200"/>
