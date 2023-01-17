@@ -63,46 +63,87 @@ Conference Talks
 
 Academic Service
 ======
+**PC member**
+* **2023**
+  * ACM Conference on Computer and Communications Security (CCS’23)
+  * USENIX Security (SEC’23)
+  * Privacy Enhancing Technologies Symposium (PETS’23)
+* **2022**
+  * ACM Conference on Computer and Communications Security (CCS’22)
+  * Privacy Enhancing Technologies Symposium (PETS’22)
+* **2021**
+  * ACM Conference on Computer and Communications Security (CCS’21)
+  * Privacy Enhancing Technologies Symposium (PETS’21)
+  * Financial Cryptography (FC’21)
+* **2020**
+  * Financial Cryptography (FC’20)
+  * Workshop on Privacy in the Electronic Society (WPES’20)
+* **2019**
+  * Financial Cryptography (FC’19)
+
 **Journal reviews**
-* IEEE/ACM Transactions on Networking (TNET) (2018).
-* Proceedings on Privacy Enhancing Technologies (PoPETs) (2017, 2018, 2019).
-* ACM Transactions on Privacy and Security (TOPS) (2017, 2018, 2019).
-* ACM Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) (2017).
-* ACM Transactions on Internet Technology (TOIT) (2017).
-* IEEE Transactions on Information Forensics and Security (TIFS) (2016, 2017, 2018, 2019).
-* Computers \& Security (COSE) (2016).
-* Sensors (2016).
-* IEEE Transactions on Dependable and Secure Computing (TDSC) (2014, 2018, 2019).
-* International Journal of Information Security (IJIS) (2013).
-* Computer Communications (2013, 2014).
+* **2023**
+  * IEEE Transactions on Information Forensics and Security (TIFS)
+* **2022**
+  * IEEE Transactions on Information Forensics and Security (TIFS)
+* **2021** 
+  * ACM Transactions on Privacy and Security (TOPS)
+* **2020** 
+  * IEEE Transactions on Information Forensics and Security (TIFS)
+  * Journal on Computer Security (JCS)
+  * IEEE Transactions on Dependable and Secure Computing (TDSC)
+* **2019**
+  * Proceedings on Privacy Enhancing Technologies (PoPETs)
+  * IEEE Transactions on Information Forensics and Security (TIFS)
+  * ACM Transactions on Privacy and Security (TOPS)
+  * IEEE Transactions on Dependable and Secure Computing (TDSC)
+* **2018**
+  * IEEE/ACM Transactions on Networking (TNET)
+  * Proceedings on Privacy Enhancing Technologies (PoPETs)
+  * IEEE Transactions on Information Forensics and Security (TIFS)
+  * ACM Transactions on Privacy and Security (TOPS)
+  * IEEE Transactions on Dependable and Secure Computing (TDSC)
+* **2017**
+  * Proceedings on Privacy Enhancing Technologies (PoPETs)
+  * IEEE Transactions on Information Forensics and Security (TIFS)
+  * ACM Transactions on Privacy and Security (TOPS)
+  * ACM Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+  * ACM Transactions on Internet Technology (TOIT)
+* **2016**
+  * IEEE Transactions on Information Forensics and Security (TIFS)
+* **2014**
+  * IEEE Transactions on Dependable and Secure Computing (TDSC)
+* **2013**
+  * International Journal of Information Security (IJIS)
 
-**Conference reviews as PC member**
-* Financial Cryptography (FC) (2019, 2020)
 
-**Conference reviews as external reviewer**
-* IEEE Symposium on Security and Privacy (S\&P) (2016, 2017).
-* ACM Conference on Computer and Communications Security (CCS) (2013, 2014, 2017, 2018).
-* European Symposium on Research in Computer Security (ESORICS) (2013).
-* Privacy Enhancing Technologies (PETS) (2013, 2015, 2018, 2019).
-* ACM Workshop on Privacy in the Electronic Society (WPES) (2015).
-* International Information Security and Privacy Conference (IFIP) (2016).
-* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (2020).
-* IEEE International Conference on Multimedia and Expo (ICME) (2015).
-* Financial Cryptography and Data Security (FC) (2015, 2016).
-* IEEE Workshop on Information Forensics and Security (WIFS) (2014, 2015).
-* International Conference on Information Security (ISC) (2014, 2015).
 
-Awards and Grants
+Grants
 ======
-* PhD Grant *Formación de Profesorado Universitario (FPU)* from the Spanish Ministry of Education (Sept 2015).
-* Grant to undertake a predoctoral fellowship of 6 months at Rutgers, The State University of New Jersey, given by the *Fundación Barrié* (July 2015).
-* PhD Grant from the Regional Government of Galicia (Apr 2015).
-* Best Student Award from the Galician Government (Sept 2014).
-* Best Student Award (Premio Extraordinario Fin de Carrera) from the University of Vigo (Jan 2014).
-* *Erasmus* grant to study abroad, given by the Spanish Ministry of Education (Sept 2011).
-* *Séneca* grant to study in another province of Spain, given by the Spanish Ministry of Education (Sept 2009).
-* Best Student Award (secondary education) from the Galician Government (Oct 2006).
+* **2020**
+  * University of Waterloo UW-Fields Postdoctoral Fellowship (25,000 CAD).
+* **2015**
+  * PhD Grant Formación de Profesorado Universitario (FPU) from the Spanish Ministry of Education (61,544€ over 4 years, personal).
+  * Grant to undertake a predoctoral fellowship of 6 months at Rutgers, The State University of New Jersey, given by the Fundación Barrié (2,600€, personal).
+  * PhD Grant from the Regional Government of Galicia.
 
+* **2011**
+  * Erasmus grant to study abroad, given by the Spanish Ministry of Education.
+* **2009**
+  * Séneca grant to study in another province of Spain, given by the Spanish Ministry of Education.
+
+
+Awards
+======
+* **2022**
+  * CCS 2022 Best Reviewer Award
+* **2014**
+  * Best Student Award from the Galician Government.
+  * Best Student Award (Premio Extraordinario Fin de Carrera) from the University of Vigo (≈ 3,000€, personal).
+* **2006**
+  * Best Student Award (secondary education) from the Galician Government (3,000€, personal).
+
+  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
