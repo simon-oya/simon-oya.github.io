@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral fellow at the University of Waterloo, in Canada.
-I am a member of [CrySP](https://crysp.uwaterloo.ca/) and my supervisor is [Prof. Florian Kerschbaum](https://cs.uwaterloo.ca/~fkerschb/).
-
+I am a tenure-track Assistant Professor of Electrical and Computer Engineering at the University of British Columbia (UBC).
 In my research, I study how to design *privacy enhancing technologies* that offer strong privacy-utility trade-offs.
 To do this, I follow a *statistical framework*, where the basics steps are to 1) specify the application, users, adversary, and goals; 2) find statistical models for the users' data and behavior; 3) apply statistical analysis tools to solve the problem; 4) validate the theoretical results empirically with real-world data.
 

@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* **Oct 2019 - Present** - Postdoctoral Fellowship *(University of Waterloo, Canada)*
+* **Aug 2023 - Present** - Assistant Professor *(University of British Columbia, Canada)*
+* **Oct 2019 - July 2023** - Postdoctoral Fellowship *(University of Waterloo, Canada)*
 * **July 2019 - Aug 2019** - Research Associate *(University of Vigo, Spain)*
 * **Sept 2014 - July 2019** - PhD Program on Information Technologies and Communications *(University of Vigo, Spain)*
 * **April 2018 - June 2018** - Predoctoral Research Fellowship *(École polytechnique fédérale de Lausanne, Switzerland)*

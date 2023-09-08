@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Simon Oya"
 title_separator          : "-"
 name                     : &name "Simon Oya"
-description              : &description "Postdoc researcher at the University of Waterloo"
+description              : &description "Assistant Professor at the University of British Columbia"
 url                      : https://simon-oya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "simon-oya.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Simon Oya"
   avatar           : "simon-pic.jpg"
-  bio              : "Postdoctoral researcher at the University of Waterloo"
-  location         : "Waterloo, Canada"
+  bio              : "Assistant Professor at the University of British Columbia"
+  location         : "Vancouver, Canada"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=trc7jsIAAAAJ"
-  email            : "simon.oya at uwaterloo.ca"
+  email            : "simon.oya at ece.ubc.ca"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

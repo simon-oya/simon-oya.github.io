@@ -14,3 +14,11 @@ posterurl: 'http://simon-oya.github.io/files/oya-2013-12-globalsip-poster.pdf'
 ---
 
 [Download paper here](http://simon-oya.github.io/files/oya-2013-12-globalsip.pdf)
+
+This is a test:
+```
+this is a code block
+```
+end of test
+
+[this](#Buttons){: .btn--research}
