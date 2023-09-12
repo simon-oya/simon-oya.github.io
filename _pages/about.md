@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a tenure-track Assistant Professor of Electrical and Computer Engineering at the University of British Columbia (UBC).
+I am a tenure-track Assistant Professor at the [Electrical and Computer Engineering](https://ece.ubc.ca/) department, at the University of British Columbia (UBC).
 In my research, I study how to design *privacy enhancing technologies* that offer strong privacy-utility trade-offs.
 To do this, I follow a *statistical framework*, where the basics steps are to 1) specify the application, users, adversary, and goals; 2) find statistical models for the users' data and behavior; 3) apply statistical analysis tools to solve the problem; 4) validate the theoretical results empirically with real-world data.
 
@@ -19,7 +19,7 @@ I received my PhD from the University of Vigo (Spain) under the supervision of [
 In my thesis, I used statistical analysis techniques to study and design **anonymous communication** systems and **location privacy**-preserving mechanisms.
 
 
-Recent talks:
+# Recent talks
 * USENIX 2022
 
 [![USENIX2022 talk](https://img.youtube.com/vi/IqzH4PDTaBk/mqdefault.jpg)](https://www.youtube.com/watch?v=IqzH4PDTaBk)
