@@ -27,3 +27,10 @@ Recent talks:
 * USENIX 2021
 
 [![USENIX2022 talk](https://img.youtube.com/vi/eDjv9lAoB6Q/mqdefault.jpg)](https://www.youtube.com/watch?v=eDjv9lAoB6Q)
+
+
+# CPEN 442 2023W1: Slides
+Copy of the CPEN 442 slides for people that do not have access to Canvas yet:
+- Sep 7: [module0](/files/cpen442/module0-course-info.pdf)
+- Sep 7: [module1](/files/cpen442/module1-intro.pdf)
+- Sep 12: [module2-pt1](/files/cpen442/module2-program-sec-pt1.pdf)
