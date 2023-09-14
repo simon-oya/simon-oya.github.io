@@ -34,3 +34,4 @@ Copy of the CPEN 442 slides for people that do not have access to Canvas yet:
 - Sep 7: [module0](/files/cpen442/module0-course-info.pdf)
 - Sep 7: [module1](/files/cpen442/module1-intro.pdf)
 - Sep 12: [module2-pt1](/files/cpen442/module2-program-sec-pt1.pdf)
+- Sep 14: [module2-pt2](/files/cpen442/module2-program-sec-pt2.pdf)
