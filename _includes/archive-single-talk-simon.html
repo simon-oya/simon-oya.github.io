@@ -28,7 +28,8 @@
         {% if post.booktitle %}In <i>{{ post.booktitle }}</i>.{% endif %}
         {% if post.date %}{{ post.date | date: '%B %d, %Y' }}.{% endif %}
         {% if post.location %}{{ post.location }}.{% endif %}
-        {% if post.video %}[![Video](https://img.youtube.com/vi/{{ post.video }}/mqdefault.jpg)]{% endif %}
+        <!-- {% if post.video %}[![Video](https://img.youtube.com/vi/{{ post.video }}/mqdefault.jpg)]{% endif %} -->
+        {% if post.video %}[Video]{% endif %}
         [<a href="{{ post.slidesurl }}">Slides</a>]
       {% elsif post.type == 'conference' and post.posterurl %}
         {% if post.title %}{{ post.title }}.{% endif %}
