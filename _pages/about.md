@@ -30,4 +30,4 @@ In my thesis, I used statistical analysis techniques to study and design **anony
 
 
 # CPEN 442 2023W1: Slides
-See in [teaching](/teaching/2023-w1-cpen442/)
+See in [teaching](/teaching/2023-w1-cpen442)
