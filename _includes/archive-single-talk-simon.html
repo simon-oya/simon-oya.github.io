@@ -30,7 +30,7 @@
         {% if post.location %}{{ post.location }}.{% endif %}
         <!-- {% if post.video %}[![Video](https://img.youtube.com/vi/{{ post.video }}/mqdefault.jpg)]{% endif %} -->
         [<a href="{{ post.slidesurl }}">Slides</a>]
-        {% if post.videourl %}<p><a href="{{ post.videourl }}"><img src="{{ post.videour }}/mqdefault.jpg" style="width:50px;height:50px;"></a></p>{% endif %}
+        {% if post.videourl %}<p><a href="{{ post.videourl }}"><img src="{{ post.videourl }}/mqdefault.jpg" style="width:150px;height:70px;"></a></p>{% endif %}
       {% elsif post.type == 'conference' and post.posterurl %}
         {% if post.title %}{{ post.title }}.{% endif %}
         {% if post.authors %}{{ post.authors }}.{% endif %}
