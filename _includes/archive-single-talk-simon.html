@@ -30,9 +30,7 @@
         {% if post.location %}{{ post.location }}.{% endif %}
         <!-- {% if post.video %}[![Video](https://img.youtube.com/vi/{{ post.video }}/mqdefault.jpg)]{% endif %} -->
         [<a href="{{ post.slidesurl }}">Slides</a>]
-        {% if post.video %}<p><iframe width="420" height="315"
-          src="https://www.youtube.com/watch?v=IqzH4PDTaBk">
-          </iframe></p>{% endif %}
+        {% if post.video %}<p><a href="{{ post.videourl }}"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:50px;height:50px;"></a></p>{% endif %}
       {% elsif post.type == 'conference' and post.posterurl %}
         {% if post.title %}{{ post.title }}.{% endif %}
         {% if post.authors %}{{ post.authors }}.{% endif %}

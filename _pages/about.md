@@ -26,7 +26,7 @@ In my thesis, I used statistical analysis techniques to study and design **anony
 
 * USENIX 2021
 
-[![USENIX2022 talk](https://img.youtube.com/vi/eDjv9lAoB6Q/mqdefault.jpg)](https://www.youtube.com/watch?v=eDjv9lAoB6Q)
+[![USENIX2021 talk](https://img.youtube.com/vi/eDjv9lAoB6Q/mqdefault.jpg)](https://www.youtube.com/watch?v=eDjv9lAoB6Q)
 
 
 # CPEN 442 2023W1: Slides
