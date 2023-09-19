@@ -19,15 +19,5 @@ I received my PhD from the University of Vigo (Spain) under the supervision of [
 In my thesis, I used statistical analysis techniques to study and design **anonymous communication** systems and **location privacy**-preserving mechanisms.
 
 
-# Recent talks
-* USENIX 2022
-
-[![USENIX2022 talk](https://img.youtube.com/vi/IqzH4PDTaBk/mqdefault.jpg)](https://www.youtube.com/watch?v=IqzH4PDTaBk)
-
-* USENIX 2021
-
-[![USENIX2021 talk](https://img.youtube.com/vi/eDjv9lAoB6Q/mqdefault.jpg)](https://www.youtube.com/watch?v=eDjv9lAoB6Q)
-
-
 # CPEN 442 2023W1: Slides
 See in [teaching](/teaching/2023-w1-cpen442)
