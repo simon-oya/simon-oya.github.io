@@ -137,10 +137,10 @@ Grants
 Awards
 ======
 * **2023**
-  * USENIX Security 2023 Noteworthy Reviewer Award (&lt20%)
-  * PETS 2023 Exceptional Reviewer Award (&lt13%)
+  * USENIX Security 2023 Noteworthy Reviewer Award (<20%)
+  * PETS 2023 Exceptional Reviewer Award (<13%)
 * **2022**
-  * CCS 2022 Best Reviewer Award (&lt10%)
+  * CCS 2022 Best Reviewer Award (<10%)
 * **2014**
   * Best Student Award from the Galician Government.
   * Best Student Award (Premio Extraordinario Fin de Carrera) from the University of Vigo (≈ 3,000€, personal).
