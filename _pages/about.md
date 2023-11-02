@@ -30,6 +30,6 @@ My research topics include, but are not limited to:
 - Differential privacy.
 
 # Prospective students
-I am looking for motivated students that want to do research on privacy-enhancing technologies, preferably in the research topics mentioned above, although I am open to expanding to other privacy-related topics.
-Please see the prospective students page for more information.
+I am looking for motivated students that want to do research on privacy-enhancing technologies, preferably in the research topics mentioned above.
+Please see the [prospective students page](/_pages/students.md) for more information.
 
