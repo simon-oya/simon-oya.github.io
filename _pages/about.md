@@ -12,7 +12,7 @@ In my research, I study how to design *privacy-enhancing technologies* that offe
 <!-- To do this, I follow a *statistical framework*, where the basics steps are to 1) specify the application, users, adversary, and goals; 2) find statistical models for the users' data and behavior; 3) apply statistical analysis tools to solve the problem; 4) validate the theoretical results empirically with real-world data. -->
 
 I was a postdoctoral fellow at the University of Waterloo working with [Prof. Florian Kerschbaum](https://cs.uwaterloo.ca/~fkerschb/) (Oct 2019 – Jul 2023).
-I received my PhD from the University of Vigo (Spain) under the supervision of [Prof. Carmela Troncoso](http://carmelatroncoso.com/) and [Prof. Fernando Pérez-González ](http://gpsc.uvigo.es/fernando-perez-gonzalez).
+I received my PhD from the University of Vigo (Spain) under the supervision of [Prof. Carmela Troncoso](http://carmelatroncoso.com/) and [Prof. Fernando Pérez-González](http://gpsc.uvigo.es/fernando-perez-gonzalez).
 <!-- ![statistical](/assets/images/statistical.png) -->
 
 <!-- Currently, I apply these techniques to assess the privacy of **searchable encryption** schemes and **machine learning** models. -->
