@@ -31,5 +31,5 @@ My research topics include, but are not limited to:
 
 # Prospective students
 I am looking for motivated students that want to do research on privacy-enhancing technologies, preferably in the research topics mentioned above.
-Please see the [prospective students page](/_pages/students.md) for more information.
+Please see the [prospective students page](/students) for more information.
 
