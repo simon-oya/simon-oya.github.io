@@ -23,3 +23,8 @@ If you want to apply, please send me an email and include your resume/CV.
 Please include the following in your email subject, to show that you have read this website: **"[Prospective Student]"**.
 I will not reply to emails that do not include this in the subject.
 Also check the [general admission process](https://ece.ubc.ca/undergraduates/admissions/) of ECE UBC.
+
+If you are using **ChatGPT** to generate the email, please be aware that ChatGPT generates emails that look very fancy, but do not convey a lot of information.
+Please write an email that is clear and concise.
+Read the email that you are writing and see if it needs all of those word decorations and fancy word choices.
+I would say 95% of the application emails that I receive are using ChatGPT in a way that is detrimental to the application.
