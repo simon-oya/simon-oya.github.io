@@ -33,9 +33,13 @@ My research topics include, but are not limited to:
 I am looking for motivated students that want to do research on privacy-enhancing technologies, preferably in the research topics mentioned above.
 Please see the [prospective students page](/students) for more information.
 
-# Current teaching material
-This is a publicly available copy of the slide material for CPEN442 24W1, for students that currently do not have access to Canvas:
+-----
+
+# Material for CPEN442 24W1
+This is a publicly available copy of the slide material for CPEN442 24W1, for waitlisted students that currently do not have access to Canvas:
 - [M0: course info](/cpen442-slides/module0-course-info.pdf)
 - [M1: introduction](/cpen442-slides/module1-intro.pdf)
 - [M2: cryptography](/cpen442-slides/module2-crypto-no-solutions.pdf)
+
+To enrol in Piazza, use [this link](https://piazza.com/ubc.ca/winterterm12024/cpen442/home), and ask the professor for the access code.
 
