@@ -33,3 +33,7 @@ My research topics include, but are not limited to:
 I am looking for motivated students that want to do research on privacy-enhancing technologies, preferably in the research topics mentioned above.
 Please see the [prospective students page](/students) for more information.
 
+# Current teaching material
+This is a publicly available copy of the slide material for CPEN442 24W1, for students that currently do not have access to Canvas:
+- [M0: course info](/cpen442-slides/module0-course-info.pdf)
+
