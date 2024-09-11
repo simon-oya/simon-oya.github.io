@@ -36,4 +36,6 @@ Please see the [prospective students page](/students) for more information.
 # Current teaching material
 This is a publicly available copy of the slide material for CPEN442 24W1, for students that currently do not have access to Canvas:
 - [M0: course info](/cpen442-slides/module0-course-info.pdf)
+- [M1: introduction](/cpen442-slides/module1-intro.pdf)
+- [M2: cryptography](/cpen442-slides/module2-crypto-no-solutions.pdf)
 
