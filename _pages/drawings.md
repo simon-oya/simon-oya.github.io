@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 During my PhD, I started drawing my own characters for talks and publications, mostly as a way to procrastinate without guilt. 
-Over the years, I eventually settled in drawing the traditional crypto characters (Alice, Bob, Eve, and many others) a certain way (e.g., Alice has blue body and pink hair).
+Over the years, I eventually settled on drawing the traditional crypto characters (Alice, Bob, Eve, and many others) a certain way (e.g., Alice has blue body and pink hair).
 I have used these characters in my conference presentations, my job talk, and my course slides.
 
 Some colleagues and students asked me if they could use some of these drawings for their own presentations/material, so I eventually decided to put them here.
