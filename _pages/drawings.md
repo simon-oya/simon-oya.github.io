@@ -15,4 +15,15 @@ which means that I would like you to acknowledge the source of these.
 Basically, feel free to use them for academic purposes but cite the source for acknowledgement and so that other people can also use them, e.g., 
 > "Images by Simon Oya: https://simonoya.com/drawings/"
 
-While I figure out how to display the images as a gallery, you can [download the images here](http://simon-oya.github.io/files/drawings.zip) (right click, Save link as...).
+### drawings-v0
+You can download the last version of the drawings [here (right click, Save link as...)](http://simon-oya.github.io/files/drawings-v0.zip).
+
+This is a low-res sprite sheet for quick reference:\
+![Sprite Sheet v0](https://simon-oya.github.com/files/images/sprites-v0.png).
+
+### drawings-sec22
+These are some drawings used for the presentation for my [USENIX Security 2022 paper](/publication/oya-2022-08-usenix).
+You can [download them here (right click, Save link as...)](http://simon-oya.github.io/files/drawings-sec22.zip)
+
+This is a low-res sprite sheet for quick reference:\
+![Sprite Sheet Sec 2022](https://simon-oya.github.com/files/images/sprites-sec22.png).
