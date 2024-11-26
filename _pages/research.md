@@ -20,7 +20,9 @@ My research studies these problems from a *statistical perspective*, using theor
 {% include base_path %}
 
 <ul>{% for post in site.publications reversed %}
-  <li>{% include archive-single-simon.html %}</li>
+    {% if post.area == 'sse' %}
+        <li>{% include archive-single-simon.html %}</li>
+    {% endif %}
 {% endfor %}</ul>
 
 
@@ -31,18 +33,19 @@ My research studies these problems from a *statistical perspective*, using theor
 <details>
 <summary><b>Privacy-preserving machine learning</b></summary>
 
-<img src="/images/image-alignment-150x150" alt="Drawings Sprite">
+<img src="/images/image-alignment-150x150.jpg" alt="Drawings Sprite">
 
-<img src="/images/image-alignment-300x200" alt="Drawings Sprite">
+<img src="/images/image-alignment-300x200.jpg" alt="Drawings Sprite">
 
-<img src="/images/image-alignment-310x150" alt="Drawings Sprite">
+<img src="/images/image-alignment-310x150.jpg" alt="Drawings Sprite">
 
-<img src="/images/image-alignment-310x310" alt="Drawings Sprite">
+<img src="/images/image-alignment-310x310.jpg" alt="Drawings Sprite">
 
-{% include base_path %}
 
 <ul>{% for post in site.publications reversed %}
-  <li>{% include archive-single-simon.html %}</li>
+    {% if post.area == 'ml' %}
+        <li>{% include archive-single-simon.html %}</li>
+    {% endif %}
 {% endfor %}</ul>
 
 

@@ -11,6 +11,7 @@ pages: '223-236'
 location: 'Austin, Texas (US)'
 paperurl: 'http://simon-oya.github.io/files/oya-2013-12-globalsip.pdf'
 posterurl: 'http://simon-oya.github.io/files/oya-2013-12-globalsip-poster.pdf'
+area: 'anon'
 ---
 
 [Download paper here](http://simon-oya.github.io/files/oya-2013-12-globalsip.pdf)
