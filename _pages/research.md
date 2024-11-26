@@ -4,16 +4,6 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-
-<!-- $alice-color                : #00ECFF;
-$alice-color-30             : #B3F9FF;
-$bob-color                  : #B7FF41;
-$bob-color-30               : #E2FFB4;
-$carol-color                : #FECB00;
-$carol-color-30             : #FEEFB2;
-$dave-color                 : #F16C12;
-$dave-color-30              : #F1C6A9; -->
-
 <!DOCTYPE html>
 <html>
 <head>
