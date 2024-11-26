@@ -1,10 +1,14 @@
 # main links links
 main:
+  # Add this soon?
+  # - title: "Research"
+  #   url: /research/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/
+  # - title: "Talks"
+  #   url: /talks/
 
   - title: "Teaching"
     url: /teaching/
@@ -15,8 +19,8 @@ main:
   # - title: "Blog Posts"
     # url: /year-archive/
 
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
 
   - title: "Drawings"
     url: /drawings/
