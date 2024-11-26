@@ -2,6 +2,7 @@
 layout: archive
 title: ""
 permalink: /research/test123123123/
+excerpt: "This is an excerpt test"
 author_profile: false
 ---
 This is a test $1+1=2$
