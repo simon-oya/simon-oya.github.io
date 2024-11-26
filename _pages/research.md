@@ -43,7 +43,6 @@ Click on the following research lines to learn more about them.
 
 <button type="button" class="collapsible">Privacy-Preserving Searchable Encryption</button>
 <div class="content">
-    <img src="/images/topic-sse.png" alt="SSE drawing">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 <button type="button" class="collapsible">Open Section 2</button>
