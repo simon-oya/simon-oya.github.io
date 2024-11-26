@@ -17,4 +17,11 @@ My research studies these problems from a *statistical perspective*, using theor
 
 <img src="/images/sprites-v0.png" alt="Drawings Sprite">
 
+{% include base_path %}
+
+<ul>{% for post in site.publications reversed %}
+  <li>{% include archive-single-simon.html %}</li>
+{% endfor %}</ul>
+
+
 </details>
