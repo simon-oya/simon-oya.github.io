@@ -32,19 +32,17 @@ author_profile: true
 }
 </style>
 </head>
-<body>
 
-<h2>Collapsibles</h2>
+I am broadly interested in computer security and privacy problems.
+My research studies these problems from a *statistical perspective*, using theoretical tools to quantify the privacy leakage of different systems and design strong defenses.
+- Privacy-preserving searchable encryption.
+- Privacy-preserving machine learning.
+- Anonymous communication systems.
+- Differential privacy.
 
-<p>A Collapsible:</p>
-<button type="button" class="collapsible">Open Collapsible</button>
+<button type="button" class="collapsible">Privacy-Preserving Searchable Encryption</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<p>Collapsible Set:</p>
-<button type="button" class="collapsible">Open Section 1</button>
-<div class="content">
+    <img src="/images/topic-sse.png" alt="SSE drawing">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 <button type="button" class="collapsible">Open Section 2</button>
