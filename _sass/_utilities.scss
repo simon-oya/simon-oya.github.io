@@ -468,29 +468,3 @@ a.reversefootnote {
   color: $danger-color;
   font-weight: bold;
 }
-
-
-
-/* Simon test */
-.collapsible-a {
-  background-color: $alice-color;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible-a:hover {
-  background-color: $alice-color-30;
-}
-
-.content-a {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: $alice-color-30;
-}
