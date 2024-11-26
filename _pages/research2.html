@@ -1,10 +1,12 @@
 ---
 layout: archive
-title: "Research"
-permalink: /research/
+title: "Research in HTML"
+permalink: /research2/
 author_profile: true
 ---
 
+<!DOCTYPE html>
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -21,29 +23,24 @@ author_profile: true
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #B1F6FE;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #EAFCFE;
 }
 </style>
 </head>
+<body>
 
-I am broadly interested in computer security and privacy problems.
-My research studies these problems from a *statistical perspective*, using theoretical tools to quantify the privacy leakage of different systems and design strong defenses.
-Click on the following research lines to learn more about them.
-<!-- - Privacy-preserving searchable encryption.
-- Privacy-preserving machine learning.
-- Anonymous communication systems.
-- Differential privacy. -->
 
-<button type="button" class="collapsible">Privacy-Preserving Searchable Encryption</button>
+
+<p>Collapsible Set:</p>
+<button type="button" class="collapsible">Open Section 1</button>
 <div class="content">
-    <img src="/images/topic-sse.png" alt="SSE drawing">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 <button type="button" class="collapsible">Open Section 2</button>
@@ -72,43 +69,5 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
-
-
-<details>
-<summary><b>Privacy-preserving Searchable Encryption</b></summary>
-
-<img src="/images/sprites-v0.png" alt="Drawings Sprite">
-
-{% include base_path %}
-
-<ul>{% for post in site.publications reversed %}
-    {% if post.area == 'sse' %}
-        <li>{% include archive-single-simon.html %}</li>
-    {% endif %}
-{% endfor %}</ul>
-
-
-</details>
-
-
-
-<details>
-<summary><b>Privacy-preserving machine learning</b></summary>
-
-<img src="/images/image-alignment-150x150.jpg" alt="Drawings Sprite">
-
-<img src="/images/image-alignment-300x200.jpg" alt="Drawings Sprite">
-
-<img src="/images/image-alignment-580x300.jpg" alt="Drawings Sprite">
-
-<img src="/images/image-alignment-1200x4002.jpg" alt="Drawings Sprite">
-
-
-<ul>{% for post in site.publications reversed %}
-    {% if post.area == 'ml' %}
-        <li>{% include archive-single-simon.html %}</li>
-    {% endif %}
-{% endfor %}</ul>
-
-
-</details>
+</body>
+</html>
