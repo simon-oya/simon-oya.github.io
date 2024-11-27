@@ -50,20 +50,75 @@ author_profile: true
 
 
 <p>I am broadly interested in computer security and privacy problems.
-My research studies these problems from a <em>statistical perspective</em>, using theoretical tools to quantify the privacy leakage of different systems and design strong defenses.
-Click on the following research lines to learn more about them.</p>
+  More particularly, my research studies techniques to <em>quantify</em> the <em>privacy</em> leakage of various systems and designs defenses to limit this leakage.
+  I am a big fan of following principled approaches rooted in <em>statistical analysis</em> to reason about privacy.
+</p>
+<p>
+  I have written this page (in a pretty informal tone) to help interested students understand what I do.
+  For more technical descriptions, please check my papers.
+</p>
+Click on the research lines below to learn more about them.
+</p>
 
 <button type="button" class="collapsible">Machine Learning Privacy</button>
 <div class="content">
-    <img src="/images/topic-ml.png" alt="ML topic">
-  <p>This is a description of the ML research line</p>
+  <img align="right" src="/images/topic-ml.png" alt="ML topic">
+  <p>Of course, machine learning research!
+    Like many many other privacy researchers, I have also jumped onto the machine learning train, choo choo!
+  </p>
+  <p>
+    If you are reading this, you probably are aware of how prevalent machine learning technologies are nowadays.
+    Here's the privacy angle of all this: when one builds a machine learning model using a privacy-sensitive training dataset, the model will memorize some privacy-sensitive information.
+    An attacker with access to that model (even if it is just black-box query access) can learn a lot of information about the training data: whether or not a particular sample was in the training dataset (this is called <em>membership inference</em>), a particular property of the training dataset (property inference), or even reconstruct a training sample just by querying the model (model inversion).
+    These attacks are hard to prevent!
+  </p>
+  <p>
+    I am interested in understanding the privacy implications of training machine learning models on sensitive data, developing tools to quantify their privacy leakage, and building defenses to limit such leakage.
+    This is very broad, I know.
+    As with the rest of my research, I do not like purely empirical or heuristic results, and try to get some solid understsanding of why things work the way they do.
+    This is somewhat hard in machine learning, as the machines are doing the learning, and not us.
+  </p>
+  <p>
+    The only paper I have (so far) in the topic should give you a good idea of the type of questions I like to study in this area:
+  </p>
+  <ul>{% for post in site.publications reversed %}
+    {% if post.area == 'ml' %}
+    <li>{% include archive-single-simon.html %}</li>
+    {% endif %}
+  {% endfor %}</ul>
 </div>
 
 
 <button type="button" class="collapsible">Privacy-Preserving Searchable Encryption</button>
 <div class="content">
-    <img src="/images/topic-sse.png" alt="SSE topic">
-  <p>Description of SSE.</p>
+  <img align="right" src="/images/topic-sse.png" alt="SSE topic">
+  <p>Storing data in the cloud is very convenient: it frees resources on our local devices and helps the data be available as long as we have some Internet connection.
+    However, storing privacy-sensitive data in the cloud is somewhat scary: what if the cloud is looking at our data? Can we trust the cloud?
+  </p>
+  <p>
+    Luckily, humans are very good at hiding data using encryption!
+    We can encrypt of all our data and store it in the cloud.
+    But, if we try to search for any data item, turns out we cannot do this by default if the data is encrypted.
+    Enter searchable encryption!
+  </p>
+  <p>
+    Searchable encryption allows storing encrypted data in a cloud provider, alongside some cryptographic structures that allows running secure searches on the data.
+    Now the cloud provider does not learn anything about our data nor how we access it.
+    However, total protection incurrs a lot of overhead, which means that, in practice, we should leak <em>some</em> information to the cloud provider.
+    Understanding the implications of such leakage and designing systems that limit such leakage (while still being efficient) are two very important questions that my research deals with.
+  </p>
+  <p>
+    I have looked at this problem by developing attacks against searchable encryption schemes, since the performance of an attack gives us some indication of the privacy level the system provides.
+    If you are curious about this, check my publications below.
+    I recommend starting with the <a href="/files/oya-2021-08-usenix.pdf">SAP attack</a>, which has enough statistics to show you the kind of work I do.
+    If you liked that, check a more sophisticated attack called <a href="/files/oya-2022-08-usenix.pdf">IHOP</a> as well as my greatest achievements: <a href="/files/oya-2022-08-usenix-slides.pdf">the slides</a> I used to present this work.
+    There is also a video somewhere, that I am not able to watch without dying of embarrassment.
+  </p>
+  <ul>{% for post in site.publications reversed %}
+    {% if post.area == 'sse' %}
+    <li>{% include archive-single-simon.html %}</li>
+    {% endif %}
+  {% endfor %}</ul>
 </div>
 
 
@@ -75,14 +130,18 @@ Click on the following research lines to learn more about them.</p>
     However, even if your <em>data</em> is encrypted, it is not hard for an adversary to tell <em>where</em> your traffic is going (e.g., that particular website you are visiting).
     To hide who talks with whom over the Internet (and other <em>meta-data</em>), we need <strong>anonymous communications systems</strong>.
     <a href="https://www.torproject.org/">Tor</a> is the most successful of such systems, but there are is another type of systems, less known, called <a href="https://en.wikipedia.org/wiki/Mix_network">mixnets</a>.
-    Mixnets aim to protect against a global passive adversary, which is something that even Tor cannot do, and despite being quite old conceptually are only recently being deployed.
+    Mixnets aim to protect against a global passive adversary, which is something that even Tor cannot do.
+    While mixnets were conceived a long time ago, their deployments are very recent.
   </p>
   <p>
     My research in mixnets focuses on understanding and quantifying the privacy guarantees that they provide.
     In the past, I have done this from a theoretical perspective, using statistics and signal processing techniques.
     Recently, we have seen some actual deployments of mixnets (e.g., <a href="https://nymtech.net/about/mixnet">Nym</a>), and I would love to study the privacy of these specific systems!
   </p>
-  <p>If any of this sounds interesting to you, these are my papers on the topic:</p>
+  <p>Below are my papers on the topic.
+    If you are a student looking for one paper to read on this topic, start with <a href="/files/oya-2013-12-globalsip.pdf">my first paper ever</a> (only four pages, and enough math to scary you off).
+    If you enjoyed that and want to read more math, also give <a href="/files/oya-2014-07-pets.pdf">this one</a> a read.
+  </p>
   <ul>{% for post in site.publications reversed %}
     {% if post.area == 'anon' %}
     <li>{% include archive-single-simon.html %}</li>
@@ -93,8 +152,25 @@ Click on the following research lines to learn more about them.</p>
 
 <button type="button" class="collapsible">Location Privacy</button>
 <div class="content">
-  <img src="/images/topic-location.png" alt="Location privacy topic">
-  <p>Description of location privacy.</p>
+  <img align="right" src="/images/topic-location.png" alt="Location privacy topic">
+  <p>Location-based services rely on our location to help us find the closest restaurants, tell us how long our morning jog was, or keep a timeline of our travels for posterity.
+    To use these services, we have to provide our location information to a service provider, of course.
+    Have you ever wondered how sensitive this information is?
+    With your location information is not only trivial to learn where you live and work, but one could probably infer your hobbies, habits, political preferences, and even sexual orientation.
+    Scary!
+  </p>
+  <p>
+    My research in location privacy studies mechanisms that partially hide our location (to prevent the provider/adversary from learning all that sensitive information) while still being able to get some utility from the service.
+    Like in my other research lines, I have studied what are reasonable metrics for privacy in this setting, and studied different privacy-utility trade-offs.
+  </p>
+  <p>
+    If you want to read one paper about this, I would recommend my <a href="/files/oya-2017-11-ccs.pdf">CCS'17 paper</a>.
+  </p>
+  <ul>{% for post in site.publications reversed %}
+    {% if post.area == 'anon' %}
+    <li>{% include archive-single-simon.html %}</li>
+    {% endif %}
+  {% endfor %}</ul>
 </div>
 
 
