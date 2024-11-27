@@ -4,7 +4,7 @@ authors: '<strong>Simon Oya</strong>, Carmela Troncoso, and Fernando Pérez-Gonz
 type: 'conference'
 booktitle: 'IEEE Global Conference on Signal and Information Processing (GlobalSIP)'
 collection: publications
-# permalink: /publication/oya-2013-12-globalsip
+permalink: /publication/oya-2013-12-globalsip
 date: 2013-12-03
 year: 2013
 pages: '223-236'
