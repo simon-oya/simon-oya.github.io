@@ -7,5 +7,5 @@ collection: publications
 permalink: /publication/oya-2019-07-phd-thesis
 date: 2019-07-05
 year: 2019
-paperurl: 'http://simon-oya.github.io/files/oya-2019-07-phd-thesis.pdf'
+paperurl: '/files/oya-2019-07-phd-thesis.pdf'
 ---
