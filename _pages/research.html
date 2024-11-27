@@ -58,33 +58,39 @@ Click on the following research lines to learn more about them.</p>
     <img src="/images/topic-ml.png" alt="ML topic">
   <p>This is a description of the ML research line</p>
 </div>
+
+
 <button type="button" class="collapsible">Privacy-Preserving Searchable Encryption</button>
 <div class="content">
     <img src="/images/topic-sse.png" alt="SSE topic">
   <p>Description of SSE.</p>
 </div>
+
+
 <button type="button" class="collapsible">Anonymous Communications</button>
 <div class="content">
   <img align="right" src="/images/topic-anon.png" alt="Anonymous coms topic">
   <p>
     Nowadays, most Internet communications are encrypted, which is great!
-    However, even if your data is encrypted, it is not hard for an adversary to tell <em>where</em> your traffic is going (e.g., that particular website you are visiting).
-    To hide who talks to whom over the Internet, as well as other <em>meta-data</em> we need anonymous communications systems.
-    <a href="https://www.torproject.org/">Tor</a> is the most successful of such systems, but there are other family, less known, called mixnets.
-    Mixnets aim to protect against a global passive adversary, which is something that even Tor cannot do.
+    However, even if your <em>data</em> is encrypted, it is not hard for an adversary to tell <em>where</em> your traffic is going (e.g., that particular website you are visiting).
+    To hide who talks with whom over the Internet (and other <em>meta-data</em>), we need <strong>anonymous communications systems</strong>.
+    <a href="https://www.torproject.org/">Tor</a> is the most successful of such systems, but there are is another type of systems, less known, called <a href="https://en.wikipedia.org/wiki/Mix_network">mixnets</a>.
+    Mixnets aim to protect against a global passive adversary, which is something that even Tor cannot do, and despite being quite old conceptually are only recently being deployed.
   </p>
   <p>
-    Right now I do not have to explain how those works, but you can check some of my papers in the topic if you are interested.
     My research in mixnets focuses on understanding and quantifying the privacy guarantees that they provide.
     In the past, I have done this from a theoretical perspective, using statistics and signal processing techniques.
-    Recently, we have seen some actual deployments of mixnets (e.g., [Nym](https://nymtech.net/about/mixnet)), and I would love to study the privacy of these specific systems!
+    Recently, we have seen some actual deployments of mixnets (e.g., <a href="https://nymtech.net/about/mixnet">Nym</a>), and I would love to study the privacy of these specific systems!
   </p>
+  <p>If any of this sounds interesting to you, these are my papers on the topic:</p>
   <ul>{% for post in site.publications reversed %}
     {% if post.area == 'anon' %}
     <li>{% include archive-single-simon.html %}</li>
     {% endif %}
   {% endfor %}</ul>
 </div>
+
+
 <button type="button" class="collapsible">Location Privacy</button>
 <div class="content">
   <img src="/images/topic-location.png" alt="Location privacy topic">
