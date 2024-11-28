@@ -63,20 +63,19 @@ Click on the research lines below to learn more about them.
 <button type="button" class="collapsible">Machine Learning Privacy</button>
 <div class="content">
   <img align="right" src="/images/topic-ml.png" alt="ML topic">
-  <p>Of course, machine learning research!
-    Like many many other privacy researchers, I have also jumped onto the machine learning train, choo choo!
+  <p>Like many many other privacy researchers, I have also jumped onto the machine learning train, <em>choo choo!</em>
   </p>
   <p>
-    If you are reading this, you probably are aware of how prevalent machine learning technologies are nowadays.
+    If you are reading this, you probably are aware that machine learning technologies are everywhere.
     Here's the privacy angle of all this: when one builds a machine learning model using a privacy-sensitive training dataset, the model will memorize some privacy-sensitive information.
     An attacker with access to that model (even if it is just black-box query access) can learn a lot of information about the training data: whether or not a particular sample was in the training dataset (this is called <em>membership inference</em>), a particular property of the training dataset (property inference), or even reconstruct a training sample just by querying the model (model inversion).
-    These attacks are hard to prevent!
+    Sadly, due to the complexity of the problem (it's called "machine" learning, after all), preventing these attacks is really hard!
   </p>
   <p>
     I am interested in understanding the privacy implications of training machine learning models on sensitive data, developing tools to quantify their privacy leakage, and building defenses to limit such leakage.
     This is very broad, I know.
-    As with the rest of my research, I do not like purely empirical or heuristic results, and try to get some solid understsanding of why things work the way they do.
-    This is somewhat hard in machine learning, as the machines are doing the learning, and not us.
+    As with the rest of my research, I do not like <em>purely empirical</em> or heuristic results, and I try to get some solid understsanding of why things work the way they do.
+    This is sadly somewhat hard in machine learning, but we have to try!
   </p>
   <p>
     The only paper I have (so far) in the topic should give you a good idea of the type of questions I like to study in this area:
@@ -165,9 +164,10 @@ Click on the research lines below to learn more about them.
   </p>
   <p>
     If you want to read one paper about this, I would recommend my <a href="/files/oya-2017-11-ccs.pdf">CCS'17 paper</a>.
+    Here's the full list:
   </p>
   <ul>{% for post in site.publications reversed %}
-    {% if post.area == 'anon' %}
+    {% if post.area == 'loc' %}
     <li>{% include archive-single-simon.html %}</li>
     {% endif %}
   {% endfor %}</ul>
