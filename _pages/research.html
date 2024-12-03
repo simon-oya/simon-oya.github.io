@@ -50,11 +50,10 @@ author_profile: true
 
 
 <p>I am broadly interested in computer security and privacy problems.
-  More particularly, my research studies techniques to <em>quantify</em> the <em>privacy</em> leakage of various systems and designs defenses to limit this leakage.
-  I am a big fan of following principled approaches rooted in <em>statistical analysis</em> to reason about privacy.
+  More particularly, my research studies techniques to <em>quantify the privacy leakage</em> of various systems and designs defenses to limit this leakage.
 </p>
 <p>
-  I have written this page (in a pretty informal tone) to help interested students understand what I do.
+  I have written this informal page to help interested students understand what I do.
   For more technical descriptions, please check my papers.
 </p>
 Click on the research lines below to learn more about them.
@@ -63,18 +62,17 @@ Click on the research lines below to learn more about them.
 <button type="button" class="collapsible">Machine Learning Privacy</button>
 <div class="content">
   <img align="right" src="/images/topic-ml.png" alt="ML topic">
-  <p>Like many many other privacy researchers, I have also jumped onto the machine learning train, <em>choo choo!</em>
-  </p>
   <p>
-    If you are reading this, you probably are aware that machine learning technologies are everywhere.
+    Machine learning technologies are everywhere.
     Here's the privacy angle of all this: when one builds a machine learning model using a privacy-sensitive training dataset, the model will memorize some privacy-sensitive information.
-    An attacker with access to that model (even if it is just black-box query access) can learn a lot of information about the training data: whether or not a particular sample was in the training dataset (this is called <em>membership inference</em>), a particular property of the training dataset (property inference), or even reconstruct a training sample just by querying the model (model inversion).
-    Sadly, due to the complexity of the problem (it's called "machine" learning, after all), preventing these attacks is really hard!
+    An attacker with access to that model (even if it is just black-box query access) can learn a lot of information about the training data.
+    The most basic attack is called <em>membership inference attack</em>, where an attacker gets access to a model and a data sample, and wants to get whether that sample was in the model's training set. 
+    More complex attacks include model inversion, where the attacker reconstructs a training sample just by querying the model!
+    Sadly, due to the complexity of machine learning (it's called <em>machine</em> learning, after all), preventing these attacks is really hard!
   </p>
   <p>
     I am interested in understanding the privacy implications of training machine learning models on sensitive data, developing tools to quantify their privacy leakage, and building defenses to limit such leakage.
-    This is very broad, I know.
-    As with the rest of my research, I do not like <em>purely empirical</em> or heuristic results, and I try to get some solid understsanding of why things work the way they do.
+    As with the rest of my research, I do not like <em>purely empirical</em> or heuristic results, and I try to get some solid understanding of why things work the way they do.
     This is sadly somewhat hard in machine learning, but we have to try!
   </p>
   <p>
@@ -97,22 +95,23 @@ Click on the research lines below to learn more about them.
   <p>
     Luckily, humans are very good at hiding data using encryption!
     We can encrypt of all our data and store it in the cloud.
-    But, if we try to search for any data item, turns out we cannot do this by default if the data is encrypted.
+    However, if we try to search for any data item, turns out we cannot do this by default if the data is encrypted.
     Enter searchable encryption!
   </p>
   <p>
-    Searchable encryption allows storing encrypted data in a cloud provider, alongside some cryptographic structures that allows running secure searches on the data.
+    Searchable encryption allows storing encrypted data in a cloud provider, alongside some cryptographic structures that allow running secure searches on the data.
     Now the cloud provider does not learn anything about our data nor how we access it.
-    However, total protection incurrs a lot of overhead, which means that, in practice, we should leak <em>some</em> information to the cloud provider.
+    However, total protection incurs a lot of overhead, which means that, in practice, we should leak <em>some</em> information to the cloud provider.
     Understanding the implications of such leakage and designing systems that limit such leakage (while still being efficient) are two very important questions that my research deals with.
   </p>
   <p>
     I have looked at this problem by developing attacks against searchable encryption schemes, since the performance of an attack gives us some indication of the privacy level the system provides.
     If you are curious about this, check my publications below.
     I recommend starting with the <a href="/files/oya-2021-08-usenix.pdf">SAP attack</a>, which has enough statistics to show you the kind of work I do.
-    If you liked that, check a more sophisticated attack called <a href="/files/oya-2022-08-usenix.pdf">IHOP</a> as well as my greatest achievements: <a href="/files/oya-2022-08-usenix-slides.pdf">the slides</a> I used to present this work.
-    There is also a video somewhere, that I am not able to watch without dying of embarrassment.
+    If you liked that, check a more sophisticated attack called <a href="/files/oya-2022-08-usenix.pdf">IHOP</a>, as well as my produest academic achievement: <a href="/files/oya-2022-08-usenix-slides.pdf">the slides</a> I used to present this work.
+    There is also a video of that talk somewhere, but please don't watch it.
   </p>
+  <h2>Publications</h2>
   <ul>{% for post in site.publications reversed %}
     {% if post.area == 'sse' %}
     <li>{% include archive-single-simon.html %}</li>
