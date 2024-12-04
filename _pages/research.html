@@ -66,7 +66,7 @@ Click on the research lines below to learn more about them.
     Machine learning technologies are everywhere.
     Here's the privacy angle of all this: when one builds a machine learning model using a privacy-sensitive training dataset, the model will memorize some privacy-sensitive information.
     An attacker with access to that model (even if it is just black-box query access) can learn a lot of information about the training data.
-    The most basic attack is called <em>membership inference attack</em>, where an attacker gets access to a model and a data sample, and wants to get whether that sample was in the model's training set. 
+    The most basic attack is called <strong>membership inference attack</strong>, where an attacker gets access to a model and a data sample, and wants to get whether that sample was in the model's training set. 
     More complex attacks include model inversion, where the attacker reconstructs a training sample just by querying the model!
     Sadly, due to the complexity of machine learning (it's called <em>machine</em> learning, after all), preventing these attacks is really hard!
   </p>
@@ -78,7 +78,7 @@ Click on the research lines below to learn more about them.
   <p>
     The only paper I have (so far) in the topic should give you a good idea of the type of questions I like to study in this area:
   </p>
-  <h2>Publications</h2>
+  <h3>Publications</h3>
   <ul>{% for post in site.publications reversed %}
     {% if post.area == 'ml' %}
     <li>{% include archive-single-simon.html %}</li>
@@ -97,7 +97,7 @@ Click on the research lines below to learn more about them.
     Luckily, humans are very good at hiding data using encryption!
     We can encrypt of all our data and store it in the cloud.
     However, if we try to search for any data item, turns out we cannot do this by default if the data is encrypted.
-    Enter searchable encryption!
+    Enter <strong>searchable encryption</strong>!
   </p>
   <p>
     Searchable encryption allows storing encrypted data in a cloud provider, alongside some cryptographic structures that allow running secure searches on the data.
@@ -128,7 +128,7 @@ Click on the research lines below to learn more about them.
     Nowadays, most Internet communications are encrypted, which is great!
     However, even if your <em>data</em> is encrypted, it is not hard for an adversary to tell <em>where</em> your traffic is going (e.g., that particular website you are visiting).
     To hide who talks with whom over the Internet (and other <em>meta-data</em>), we need <strong>anonymous communications systems</strong>.
-    <a href="https://www.torproject.org/">Tor</a> is the most successful of such systems, but there are is another type of systems, less known, called <a href="https://en.wikipedia.org/wiki/Mix_network">mixnets</a>.
+    <a href="https://www.torproject.org/">Tor</a> is the most successful of such systems, but there is another type of systems, less known, called <a href="https://en.wikipedia.org/wiki/Mix_network">mixnets</a>.
     Mixnets aim to protect against a global passive adversary, which is something that even Tor cannot do.
     While mixnets were conceived a long time ago, their deployments are very recent.
   </p>
@@ -138,9 +138,10 @@ Click on the research lines below to learn more about them.
     Recently, we have seen some actual deployments of mixnets (e.g., <a href="https://nymtech.net/about/mixnet">Nym</a>), and I would love to study the privacy of these specific systems!
   </p>
   <p>Below are my papers on the topic.
-    If you are a student looking for one paper to read on this topic, start with <a href="/files/oya-2013-12-globalsip.pdf">my first paper ever</a> (only four pages, and enough math to scary you off).
+    If you are a student looking for one paper to read on this topic, start with <a href="/files/oya-2013-12-globalsip.pdf">my first paper ever</a> (only four pages, and enough math to scare you off).
     If you enjoyed that and want to read more math, also give <a href="/files/oya-2014-07-pets.pdf">this one</a> a read.
   </p>
+  <h3>Publications</h3>
   <ul>{% for post in site.publications reversed %}
     {% if post.area == 'anon' %}
     <li>{% include archive-single-simon.html %}</li>
@@ -152,21 +153,24 @@ Click on the research lines below to learn more about them.
 <button type="button" class="collapsible">Location Privacy</button>
 <div class="content">
   <img align="right" src="/images/topic-location.png" alt="Location privacy topic">
-  <p>Location-based services rely on our location to help us find the closest restaurants, tell us how long our morning jog was, or keep a timeline of our travels for posterity.
-    To use these services, we have to provide our location information to a service provider, of course.
+  <p>Open your phone, got to location permissions, and see how many apps you are sharing your location with.
+    Probably a lot.
+    Food delivery, rideshare, weather forecast, camera, dating apps, etc.
+    To use most of these apps, we <em>need to share our location data</em> with a service provider.
     Have you ever wondered how sensitive this information is?
-    With your location information is not only trivial to learn where you live and work, but one could probably infer your hobbies, habits, political preferences, and even sexual orientation.
+    With your location information is not only trivial to learn where you live and work, but one could probably infer your hobbies, habits, political preferences, etc.
+    What if the service provider is malicious or does not have the proper safeguards to protect your data?
     Scary!
   </p>
   <p>
-    My research in location privacy studies mechanisms that partially hide our location (to prevent the provider/adversary from learning all that sensitive information) while still being able to get some utility from the service.
-    Like in my other research lines, I have studied what are reasonable metrics for privacy in this setting, and studied different privacy-utility trade-offs.
+    My research in location privacy studies <strong>location privacy-preserving mechanisms</strong>, which partially hide our location to provide some privacy while still being able to get some utility from the service.
+    My work so far has focused on reasoning about which metrics are appropriate to quantify privacy in this case, and studied how to optimize the privacy-utility trade-offs in this setting.
   </p>
   <p>
     If you want to read one paper about this, I would recommend my <a href="/files/oya-2017-11-ccs.pdf">CCS'17 paper</a>.
     Here's the full list:
   </p>
-  <h4>Publications</h4>
+  <h3>Publications</h3>
   <ul>{% for post in site.publications reversed %}
     {% if post.area == 'loc' %}
     <li>{% include archive-single-simon.html %}</li>
@@ -192,5 +196,8 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
+Besides this, I would be open to explore other privacy problems where my knowledge can be helpful.
+Basically: if there is a technology that relies on data collected from people, this data can be privacy-sensitive, and we do not know how to measure or prevent the privacy leakage, then that is potentially a problem I want to work on.
+I also love doing work that involves <em>differential privacy</em> in some way!
 </body>
 </html>
