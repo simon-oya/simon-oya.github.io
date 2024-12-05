@@ -49,10 +49,8 @@ author_profile: true
 <body>
 
 
-<p>I am broadly interested in computer security and privacy problems.
+<p>I am broadly interested in designing and analyzing Privacy-Enhancing Technologies (PETs), which often overlaps with some aspect of cybersecurity.
   More particularly, my research studies techniques to <em>quantify the privacy leakage</em> of various systems and designs defenses to limit this leakage.
-</p>
-<p>
   I have written this informal page to help interested students understand what I do.
   For more technical descriptions, please check my papers.
 </p>
@@ -66,13 +64,13 @@ Click on the research lines below to learn more about them.
     Machine learning technologies are everywhere.
     Here's the privacy angle of all this: when one builds a machine learning model using a privacy-sensitive training dataset, the model will memorize some privacy-sensitive information.
     An attacker with access to that model (even if it is just black-box query access) can learn a lot of information about the training data.
-    The most basic attack is called <strong>membership inference attack</strong>, where an attacker gets access to a model and a data sample, and wants to get whether that sample was in the model's training set. 
-    More complex attacks include model inversion, where the attacker reconstructs a training sample just by querying the model!
+    The most basic attack in this setting is called <strong>membership inference attack</strong>, where an attacker gets access to a model and a data sample, and wants to guess whether that sample was in the model's training set. 
+    More complex attacks include model inversion, where the attacker reconstructs training samples just by querying the model!
     Sadly, due to the complexity of machine learning (it's called <em>machine</em> learning, after all), preventing these attacks is really hard!
   </p>
   <p>
     I am interested in understanding the privacy implications of training machine learning models on sensitive data, developing tools to quantify their privacy leakage, and building defenses to limit such leakage.
-    As with the rest of my research, I do not like <em>purely empirical</em> or heuristic results, and I try to get some solid understanding of why things work the way they do.
+    As with the rest of my research, I try to avoid <em>purely empirical</em> or heuristic results, and instead aim get some solid understanding of why things work the way they do.
     This is sadly somewhat hard in machine learning, but we have to try!
   </p>
   <p>
@@ -90,18 +88,18 @@ Click on the research lines below to learn more about them.
 <button type="button" class="collapsible">Privacy-Preserving Searchable Encryption</button>
 <div class="content">
   <img align="right" src="/images/topic-sse.png" alt="SSE topic" width="200">
-  <p>Storing data in the cloud is very convenient: it frees resources on our local devices and helps the data be available as long as we have some Internet connection.
+  <p>Storing data in the cloud is very convenient: it frees resources on our local devices and provides data availability as long as we have an Internet connection.
     However, storing privacy-sensitive data in the cloud is somewhat scary: what if the cloud is looking at our data? Can we trust the cloud?
   </p>
   <p>
-    Luckily, humans are very good at hiding data using encryption!
+    Luckily, we are very good at hiding data using cryptography!
     We can encrypt of all our data and store it in the cloud.
     However, if we try to search for any data item, turns out we cannot do this by default if the data is encrypted.
     Enter <strong>searchable encryption</strong>!
   </p>
   <p>
-    Searchable encryption allows storing encrypted data in a cloud provider, alongside some cryptographic structures that allow running secure searches on the data.
-    Now the cloud provider does not learn anything about our data nor how we access it.
+    Searchable encryption enables the storage of encrypted data on a cloud provider, along with cryptographic structures that allow secure searches to be performed on the data.
+    Now, the cloud provider learns nothing about the data itself or how it is accessed.
     However, total protection incurs a lot of overhead, which means that, in practice, we should leak <em>some</em> information to the cloud provider.
     Understanding the implications of such leakage and designing systems that limit such leakage (while still being efficient) are two very important questions that my research deals with.
   </p>
@@ -198,8 +196,9 @@ for (i = 0; i < coll.length; i++) {
 
 <p>
 Besides this, I would be open to explore other privacy problems where my knowledge can be helpful.
-Basically: if there is a technology that relies on data collected from people, this data can be privacy-sensitive, and we do not know how to measure or prevent the privacy leakage, then that is potentially a problem I want to work on.
-I also love doing work that involves <em>differential privacy</em> in some way!
+Basically: if there is a technology that relies on data collected from people, this data can be privacy-sensitive, and we do not know how to measure or prevent the privacy leakage, then that is potentially a problem I want to work on.</p>
+<p>
+I also like doing work that involves <em>differential privacy</em> in some way!
 </p>
 </body>
 </html>
