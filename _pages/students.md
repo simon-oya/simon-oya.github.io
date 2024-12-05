@@ -42,7 +42,7 @@ To learn more about the type of work that I do, you can skim through some of my 
 
 
 ### Applying and Emails
-I can only accept students that have applied through the [general admission process](https://ece.ubc.ca/undergraduates/admissions/) of ECE UBC.
+I can only accept students that have applied through the [general admission process](https://ece.ubc.ca/graduate/) of ECE UBC (MASc or PhD programs).
 Therefore, there is no need to send me an email letting me know you want to apply: I will review all the files of applicants that have selected my name as potential advisor, even if we haven't talked prior.
 I get a lot of emails from prospective students, and sadly most of them are from students with loosely related research areas.
 I end up getting overwhelmed, putting all of them in a folder, and maybe read them when it's too late.
